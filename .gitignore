@@ -1,0 +1,30 @@
+### Windows
+# Windows thumbnail cache files
+Thumbs.db
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows shortcuts
+*.lnk
+
+### Video recordings (demo clips — host on YouTube/Vimeo, do not commit)
+*.mp4
+
+### Node / pbiviz build output
+node_modules/
+.tmp/
+webpack.statistics.*.html
+*.log
+
+# dist: keep the packaged .pbiviz release, ignore intermediate build files
+ButtonSlider/dist/*
+!ButtonSlider/dist/*.pbiviz
+
+### Certificates (pbiviz dev server)
+*.pem
+*.pfx
+*.key
